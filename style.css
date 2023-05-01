@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 1000px;
+}
+header{
+    background-color: black;
+    color: tomato;
+    padding: 20px;
+    border-bottom: 5px solid tomato;
+}
+header h1{
+    margin: 0 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+header h1 span{
+    font-size: 40px;
+    color: blueviolet;
+    
+    color:white;
+    
+    
+}
+header img{
+    /* color: white; */
+    background-color:white;
+    width: 45px;
+   height: auto;
+    margin:10px 25px;
+   
+}
+header img:hover{
+    padding: 10px;
+}
+
+header nav{
+    display: flex;
+    padding: 20px;
+    
+}
+.a{
+    margin-right: 0;
+    margin-left: 350px;
+    margin-top: 20px;
+}
+header nav a{
+    text-decoration: none;
+    color: tomato;
+    font-size: 25px;
+   margin-right: 0;
+    margin-left: 80px;
+    
+   
+}
+header nav a:hover{
+    font-weight: bolder;
+    color: white;
+}
+main{
+    /* background-image:url(./img/klavye.images.jpg); */
+    background-color: aquamarine;
+    
+    background-size: cover;
+    height:100%;
+   
+}
+main p{
+    text-align: center;
+    margin: auto;
+    padding: 80px;
+    /* margin-bottom: 200px; */
+    font-size: 28px;
+    color: brown;
+    font-weight: 800;
+    
+}
+main img{position: relative;
+    margin:80px 450px;
+    /* padding: 80px; */
+    width: 500px;
+    border:5px solid white; 
+    border-radius: 190px;
+    
+
+}
+main p a{
+    text-decoration: none;
+    color: white;
+    background-color:tomato;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+   
+}
+main p a:hover{
+    font-weight: bolder;
+    color: black;
+}
+main p a:hover::after{
+    content: "↑";
+}
+h2{
+    margin-right: 100px;
+}
+.btn{
+    margin-left: 300px;
+    text-align: right; 
+}
+form{
+    display: inline-block;
+    text-align: center;
+    border: 2px solid tomato;
+    border-radius: 10px;
+    resize: vertical;
+   
+}
